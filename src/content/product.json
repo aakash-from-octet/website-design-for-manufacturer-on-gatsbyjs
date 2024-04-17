@@ -1,0 +1,126 @@
+[
+    {
+        "id":1,
+        "image":"AL57BLS01-36-4000MJ2.png",
+        "title": "AL57BL01",
+        "heading":"BLDC Motor",
+        "details":{
+            "Voltage":"24V",
+            "Power":"46W",
+            "Current":"0.45A",
+            "Weight":"0.5KG"
+        },
+        "category":"BLDC Motors"
+        
+    },
+    {
+        "id":2,
+        "image":"AL57BLS02-36-4000MJ2.png",
+        "title": "AL57BL02",
+        "heading":"BLDC Motor",
+        "details":{
+            "Voltage":"24V",
+            "Power":"90W",
+            "Current":"0.6A",
+            "Weight":"0.8KG"
+        },
+        "category":"BLDC Motors"
+        
+    },
+    {
+        "id":3,
+        "image":"AL57BLS03-36-4000MJ2.png",
+        "title": "AL57BL03",
+        "heading":"BLDC Motor",
+        "details":{
+            "Voltage":"24V",
+            "Power":"140W",
+            "Current":"0.68A",
+            "Weight":"1.0KG"
+        },
+        "category":"BLDC Motors"
+        
+    },
+    {
+        "id":4,
+        "image":"AL57BLS04-36-4000MJ2.png",
+        "title": "AL57BL04",
+        "heading":"BLDC Motor",
+        "details":{
+            "Voltage":"24V",
+            "Power":"180W",
+            "Current":"0.8A",
+            "Weight":"1.2KG"
+        },
+        "category":"BLDC Motors"
+        
+    },
+    {
+        "id":5,
+        "image":"BLDC3002.png",
+        "title": "DRV-BL300",
+        "heading":"BLDC Driver",
+        "details":{
+            "Output":"35A",
+            "HVoltage":"24V",
+            "Speed":"20K RPM",
+            "HCurrent":"4.5-5.5 V"
+        },
+        "category":"BLDC Driver"
+        
+    },
+    {
+        "id":6,
+        "image":"BLDC1501.png",
+        "title": "DRV-BL120",
+        "heading":"BLDC Driver",
+        "details":{
+            "Output":"15A",
+            "HVoltage":"5.5V",
+            "Speed":"30K RPM",
+            "HCurrent":"4.5-5.5 V"
+        },
+        "category":"BLDC Driver"
+        
+    },
+    {
+        "id":7,
+        "image":"IECINDUCTION.png",
+        "title": "IEC Induction motor",
+        "heading":"Induction Motor",
+        "details":{
+            "Frame":"63",
+            "Voltage":"130-415V",
+            "Phase":"3",
+            "kW":"0.18W"
+        },
+        "category":"Induction Motors"
+        
+    },
+    {
+        "id":8,
+        "image":"AEC40.png",
+        "title": "AEC40",
+        "heading":"Encoder Accesories",
+        "details":{
+            
+            "PPR":"100-2560"
+        },
+        "category":"Accessories"
+        
+    },
+    {
+        "id":9,
+        "image":"WORMGEAR.png",
+        "title": "Worm Gearbox",
+        "heading":"Gearbox Accessories",
+        "details":{
+            "Size":"30-150",
+            "Reduction Stage":"1-2",
+            "Speed":"0.5A",
+            "Torque":"15-1500 Nm"
+        },
+        "category":"Accessories"
+        
+    }
+]

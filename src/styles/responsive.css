@@ -1,0 +1,232 @@
+@media (max-width: 992px) {
+  .blog-items-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .blog-content-container {
+    padding: 70px 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* blog css changes */
+  .blog-items-container {
+    grid-template-columns: 1fr;
+  }
+  .blog-content-container {
+    padding: 50px 20px;
+  }
+
+  .table-td-custom.head, .table-td-custom  {
+    font-size: 12px;
+    line-height: 23px;
+  }
+
+  h2 {
+    font-family: Barlow;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.6px;
+    letter-spacing: 0.015em;
+  }
+
+  h3 {
+    font-family: Barlow;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.4px;
+    letter-spacing: 0.015em;
+  }
+
+  .nav {
+    flex-direction: column;
+  }
+
+  .visible-display {
+    opacity: 100;
+  }
+
+  .mobile-nav-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 70px;
+    background: url("../images/mobile_nav_bg.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    transition: all 3s ease-out;
+  }
+
+  .mobile-nav-bg.open {
+    display: block;
+  }
+
+  .mobile-nav-bg.close {
+    display: none;
+  }
+
+  .links {
+    width: 100%;
+  }
+
+  .links a {
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    text-align: left;
+  }
+
+  .bldc-cog-image::after {
+    content: "BLDC Labs";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    top: 47%;
+    left: 47%;
+  }
+
+  .cog-section {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+  }
+
+  .alto-for-bldc {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+  }
+
+  .text-box {
+    max-width: 100%;
+  }
+
+  .reachout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .swiper-pagination {
+    bottom: -4px !important;
+    left: 0px !important;
+    width: auto !important;
+  }
+
+  .swiper {
+    height: 400px !important;
+  }
+
+  .enquire {
+    background: url("../images/enquire_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bldc-enquirey {
+    background: url("../images/bldc_enquiry.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bldc_animation {
+    flex-direction: column;
+  }
+
+  .achievements {
+    flex-direction: column;
+  }
+
+  .lab_animation li {
+    font-family: Barlow;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.015px;
+  }
+
+  .product-btn-grp {
+    flex-direction: column;
+  }
+
+  .features {
+    flex-direction: column;
+  }
+
+  .why-alto {
+    background: linear-gradient(
+        90deg,
+        rgba(21, 16, 16, 0.9) 17.71%,
+        rgba(0, 0, 0, 0) 99.15%
+      ),
+      url("../images/why_alto_new.png");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .main-container {
+    margin-top: -80px;
+  }
+
+  @keyframes revealImage {
+    0% {
+      transform: translateY(0);
+      margin: auto;
+      max-width: 60vw;
+      max-height: 60vw;
+    }
+
+    /* 50% {
+      margin: translateY(30%);
+      margin: auto;
+      max-width: 80vw;
+      max-height: 80vw;
+    } */
+
+    100% {
+      margin: translateY(0%);
+      margin: auto;
+      max-width: 60vw;
+      max-height: 60vw;
+    }
+  }
+
+  .content-container {
+    position: relative;
+    top: 60px;
+  }
+
+  @keyframes revealContent {
+    0% {
+      left: 0%;
+      bottom: 10%;
+      opacity: 1;
+    }
+
+    100% {
+      left: 0%;
+      bottom: 10%;
+      opacity: 1;
+    }
+  }
+
+  .blue-circle {
+    width: 90%;
+    height: 90%;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .main-container {
+    width: calc(100vw - 100px);
+  }
+}
